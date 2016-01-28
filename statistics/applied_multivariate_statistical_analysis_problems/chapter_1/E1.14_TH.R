@@ -1,5 +1,5 @@
 # Import dat file. 
-t="/Users/thiamang/Documents/github/personal/tmh-scripts/statistics/applied_multivariate_statistical_analysis_problems/wichern_data/T1-6.dat"
+t="../wichern_data/T1-6.dat"
 raw_data = read.table(t,header=FALSE, skip=0)
 head(raw_data)
 colnames(raw_data)=c("Age", "S1LplusS1R", "S1LminusS1R", "S2LplusS2R", "S2LminusS2R")
